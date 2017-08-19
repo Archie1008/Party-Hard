@@ -1,0 +1,24 @@
+
+.wrapper {
+    margin: 30px 0 0 20px;
+}
+
+.col-main {
+    height: 600px;
+    margin-right:60px;
+  }
+
+.info-panel {
+    height: 580px;
+  }
+
+  .menu-list li {
+    margin: 5px;
+  }
+
+  .menu-list li a{
+
+    color: white;
+    display: block
+
+  }
