@@ -1,0 +1,58 @@
+body {
+	background-image: url("../images/maxresdefault.jpg");
+	background-attachment: fixed;
+    background-position: center; 
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+}
+
+nav {
+	opacity: 0.9;
+}
+
+.wrapper {
+    margin: 30px 0 0 20px;
+}
+
+.col-main {
+    height: 600px;
+	margin-right:60px;
+	opacity: 0.90;
+  }
+
+.main-cards {
+	opacity: 1;
+}
+
+.info-panel {
+    height: 580px;
+  }
+
+  .sidenav_card {
+	  margin: 15px 0 0 0 ;
+  }
+
+  .menu-list li {
+    margin: 15px 5px;
+  }
+
+  .menu-list li a{
+
+    color: white;
+    display: block
+
+  }
+
+
+
+#party_name {
+	color: white;
+	}
+
+input[type=text]:not(.browser-default) {
+	border-bottom: 1px solid #fff7f7;
+	}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+	border-bottom: 1px solid #fff7f7;
+	}
