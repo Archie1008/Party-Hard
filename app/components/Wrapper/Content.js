@@ -8,7 +8,7 @@ var React = require("react");
 var Content = React.createClass({
 	render: function () {
 		return (
-			<div className="col col-main s12 m8 green ">
+			<div className="col col-main s12 m7 green ">
 				<div className="card white">
 					<div className="card-content info-panel main-cards">
 					</div>
