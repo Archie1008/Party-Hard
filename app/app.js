@@ -3,6 +3,7 @@ var React = require("react");
 var ReactDOM = require("react-dom");
 
 var Navbar = require("./components/Navbar");
+var Login_intro = require("./components/Login_intro");
 var Wrapper = require("./components/Wrapper");
 
 
@@ -18,7 +19,8 @@ var Wrapper = require("./components/Wrapper");
 ReactDOM.render(
   <div className="main-container">
 	<Navbar />
-	<Wrapper />
+	<Login_intro />
+	{/* <Wrapper /> */}
   </div>,
   document.getElementById("app")
 );

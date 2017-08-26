@@ -9,10 +9,10 @@ var Navbar = React.createClass({
 	render: function () {
 		return (
 			<nav>
-				<div className="nav-wrapper green">
-					<a href="#" className="brand-logo">Party hard</a>
+				<div className="nav-wrapper">
 					<ul id="nav-mobile" className="right hide-on-med-and-down">
-						<li><a href="#" className="btn-flat waves-effect btn-floating white"><i className="material-icons green-text">settings</i></a></li>						
+						{/* <li><a href="#" className="btn-flat waves-effect btn-floating white"><i className="material-icons green-text">settings</i></a></li>						 */}
+						<a className="waves-effect waves-light btn green">Log in/Sign up</a>
 					</ul>
 					
 				</div>
